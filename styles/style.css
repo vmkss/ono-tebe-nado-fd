@@ -1,1 +1,38 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+  align-items: center;
+  height: 293px;
+  font-size: 18px;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.header__menu {
+  font-size: 18px;
+}
+
+.header__menu-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  list-style: circle;
+  
+}
+
+.header__menu-link {
+
+}
+
+.header__menu-item_active .header__menu-link {
+    text-decoration: none;
+    list-style: none;
+}
