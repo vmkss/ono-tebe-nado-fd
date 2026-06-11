@@ -57,31 +57,85 @@
 
 /*------------Cover------------*/
 .cover {
+    position: relative;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 757px;
+    min-height: 757px;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
 }
 
 .cover__title {
-    color: #fff;
-    font-weight: 700;
-    font-size: 100px;
-    text-transform: uppercase;
-    height: 100%;
-    padding: 165px 50px 207px 50px;
-    background-color: rgba(0, 0, 0, 0.6);    
+  color: #fff;
+  font-weight: 700;
+  font-size: 100px;
+  text-transform: uppercase;
+  padding: 165px 50px 106px 50px;
+  z-index: 1;
+  box-sizing: border-box;
 }
 
-.accent-span {
-    display: block;
-    line-height: 1.5; 
+.aligned-text {
+  display: block;
 }
 
-.text-center {
-    text-align: center;
+.cover__title-text_center {
+  padding-top: 12px;
 }
 
-.text-right {
-    text-align: right;
+.cover__title-text_right {
+  padding-top: 24px;
+}
+
+.aligned-text_left {
+  text-align: left
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 0.3em;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover__description {
+  color: #fff;
+  padding: 0 50px 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  z-index: 1;  
+}
+
+.cover__description-text {
+  word-spacing: 18px;
+  font-style: normal;
+  text-transform: uppercase;
+  align-self: center;
+}
+
+.bet-button {
+  color: #fff;
+  width: 256px;
+  height: 51px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #fff;
 }

@@ -1,49 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__link_active header__links-list-item_no-bullit header__links-list-item">
+          <li
+            class="header__link_active header__links-list-item_no-bullit header__links-list-item"
+          >
             <a class="header__link">главная</a>
           </li>
           <li class="header__links-list-item">
             <a class="header__link" href="#0">посмотреть лоты</a>
-          </li>       
+          </li>
           <li class="header__links-list-item">
             <a class="header__link" href="#0">об аукционе</a>
-          </li>               
+          </li>
         </ul>
       </nav>
       <a class="header__logo">
-        <img src="./images/logo-black.svg" class="header__logo-image" alt="Логотип">
+        <img
+          src="./images/logo-black.svg"
+          class="header__logo-image"
+          alt="Логотип"
+        />
       </a>
       <address class="address header__address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <div>наб. Принсенграхт 263- 265, Амстердам</div>
       </address>
-
     </header>
     <main class="main">
       <section class="cover">
-        <div class="cover__title">
-          <span class="accent-span">оНО</span>
-          <span class="accent-span text-center">ТЕБЕ</span>
-          <span class="accent-span text-right">НАДО</span>
-        </div>  
-        <div class="description">
-          <p></p>
-          <button></button>
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <span class="aligned-text aligned-text_left letter-spacing-extended"
+            >оНО</span
+          >
+          <span class="aligned-text aligned-text_center letter-spacing-extended cover__title-text_center"
+            >ТЕБЕ</span
+          >
+          <span class="aligned-text aligned-text_right letter-spacing-extended cover__title-text_right">
+            НАД<span class="no-letter-spacing">О</span></span
+          >
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+          <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
