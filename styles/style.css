@@ -34,7 +34,7 @@
 .header__logo {
   display: block;
   width: 148px;
-  height: 105px;
+  height: 100px;
 }
 
 .header__logo-image {
@@ -121,7 +121,7 @@
   justify-content: space-between;
   padding: 0 50px 50px 50px;
   color: #fff;
-  font-size: 22px;  
+  font-size: 22px;
 }
 
 .cover__description-text {
