@@ -4,6 +4,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 100px 50px;
+  max-height: 293px;
 }
 
 .header__menu {
