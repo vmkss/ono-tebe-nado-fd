@@ -139,3 +139,147 @@
   background-color: transparent;
   border: 1px solid #fff;
 }
+
+/*------------Lots------------*/
+
+.lots {
+  padding: 180px 24px 100px 24px;
+  min-height: 723px;
+}
+
+.lots__heading {
+  color: #000;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 27px;
+  margin-bottom: 30px;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px;
+  position: relative;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-link {
+  height: 100%;
+  text-decoration: none;
+}
+
+.card__title {
+  color: #fff;
+  z-index: 1;
+  font-size: 22px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  margin: 48px 40px 0 40px;
+}
+
+.card__text {
+  color: #fff;
+  z-index: 1;
+  margin: 0 40px 48px 40px;
+  font-size: 20px;
+  line-height: 120%;  
+}
+
+.lots__look-more-link {
+  display: block;
+  padding-left: 40px;
+  font-size: 20px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+
+/*------------About------------*/
+
+.about {
+  display: grid;
+  grid-template-columns: 334px auto;
+  padding: 54px 24px 180px 24px;
+  min-height: 595px;
+  align-items: start;
+  gap: 24px;
+}
+
+.about__logo-column {
+  justify-self: center;
+}
+
+.about__logo {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;  
+}
+
+.about__column {
+  padding-top: 101px; 
+}
+
+.about__title {
+  color: #000;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.about__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about__text {
+  font-size: 20px;
+  line-height: 120%;
+}
+
+/*------------Footer------------*/
