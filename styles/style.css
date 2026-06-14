@@ -283,3 +283,44 @@
 }
 
 /*------------Footer------------*/
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  min-height: 180px;
+  padding: 0 50px;
+}
+
+.footer__menu {
+  font-size: 18px;
+}
+
+.footer__links-list {
+  list-style: none;
+  text-align: center;
+}
+
+.footer__link {
+  text-underline-offset: 4px;
+}
+
+.footer__link_active .footer__link {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  justify-self: end;
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+
+.footer__social-list-item {
+  width: 48px;
+  height: 48px;
+}
+
+.footer__social-icon {
+  display: block;
+}
