@@ -200,7 +200,7 @@
   margin: 0 40px 48px 40px;
   color: #fff;
   font-size: 20px;
-  line-height: 120%;  
+  line-height: 120%;
 }
 
 .lots__look-more-link {
@@ -221,13 +221,13 @@
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
     background-position: center;
-    background-size: cover;   
+    background-size: cover;
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
     background-position: center;
-    background-size: cover;   
+    background-size: cover;
 }
 
 /*------------About------------*/
@@ -257,11 +257,11 @@
 
 .about__logo-image {
   width: 148px;
-  height: 114px;  
+  height: 114px;
 }
 
 .about__column {
-  padding-top: 101px; 
+  padding-top: 101px;
 }
 
 .about__title {
