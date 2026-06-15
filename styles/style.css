@@ -62,7 +62,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    min-height: 757px;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
