@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 100px 50px;
+  padding: 92px 50px;
 }
 
 .header__menu {
@@ -27,18 +27,20 @@
   list-style: none;
 }
 
-.header__link_active .header__link {
+.header__link_active {
     text-decoration: none;
 }
 
 .header__logo {
   display: block;
-  width: 136px;
-  height: 100px;
+  width: 148px;
+  height: 105px;
 }
 
 .header__logo-image {
+  display: block;
   width: 100%;
+  height: 100%;  
 }
 
 .address {
@@ -64,12 +66,12 @@
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .overlay {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -112,7 +114,7 @@
 }
 
 .no-letter-spacing {
-  letter-spacing: 0;
+  letter-spacing: normal;
 }
 
 .cover__description {
@@ -143,7 +145,6 @@
 /*------------Lots------------*/
 
 .lots {
-  min-height: 723px;
   padding: 180px 24px 100px 24px;
 }
 
@@ -176,6 +177,8 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  background-position: center;
+  background-size: cover;  
 }
 
 .card-link {
@@ -204,7 +207,8 @@
 
 .lots__look-more-link {
   display: block;
-  padding-left: 40px;
+  max-width: fit-content;
+  margin-left: 40px;
   font-size: 20px;
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -213,20 +217,14 @@
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-position: center;
-    background-size: cover;
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-position: center;
-    background-size: cover;
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-position: center;
-    background-size: cover;
 }
 
 /*------------About------------*/
@@ -236,7 +234,6 @@
   grid-template-columns: 334px auto;
   align-items: start;
   gap: 24px;
-  min-height: 595px;
   padding: 54px 24px 180px 24px;
 }
 
@@ -288,8 +285,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: start;
-  min-height: 180px;
-  padding: 0 50px;
+  padding: 0 50px 84px 50px;
 }
 
 .footer__menu {
@@ -305,7 +301,7 @@
   text-underline-offset: 4px;
 }
 
-.footer__link_active .footer__link {
+.footer__link_active {
   text-decoration: none;
 }
 
